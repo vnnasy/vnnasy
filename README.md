@@ -13,14 +13,17 @@ Proyek ini bertujuan untuk menganalisis pola pengeluaran pelanggan berdasarkan m
 - **Penjualan per Kategori Produk:** Menampilkan total penjualan berdasarkan kategori produk dan metode pembayaran.
 - **Peta Pembayaran:** Menunjukkan distribusi transaksi berdasarkan metode pembayaran di berbagai wilayah.
 
-## Struktur Proyek
-
-pip install -r requirements.txt
 
 ## Instalasi
 1. **Clone repositori ini:**
    ```bash
    git clone <URL_REPOSITORI>
    cd dashboard
+   ```
 
-streamlit run dashboard.py
+2. **Instal dependencies dan jalankan aplikasi Streamlit:**
+   ```bash
+   pip install -r requirements.txt
+   streamlit run dashboard.py
+   ```
+
